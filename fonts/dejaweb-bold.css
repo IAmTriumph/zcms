@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DejaWebBold';
+    src: url('dejaweb-bold.eot');
+    src: url('dejaweb-bold.eot') format('embedded-opentype'),
+         url('dejaweb-bold.woff') format('woff'),
+         url('dejaweb-bold.ttf') format('truetype'),
+         url('dejaweb-bold.svg#DejaWebBold') format('svg');
+}

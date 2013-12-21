@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /administrator/
+Disallow: /img/
+Disallow: /css/
+Disallow: /ckeditor/
+Disallow: /scripts/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /fonts/

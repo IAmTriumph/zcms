@@ -1,0 +1,234 @@
+/* CMS STYLE SHEET */
+
+/* Reset */
+html,body {
+	padding-top:0;
+	padding-left:0;
+	margin-top:0;
+	margin-left:0;
+	width:100%;
+	height:100%;
+}
+body {
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1MmMwMiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2EzMTcwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */	
+background-size: 200%;
+	
+}
+@font-face {
+    font-family: 'franchiseregular';
+    src: url('../fonts/franchise-bold-hinted.eot');
+    src: url('../fonts/franchise-bold-hinted.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/franchise-bold-hinted.woff') format('woff'),
+         url('../fonts/franchise-bold-hinted.ttf') format('truetype'),
+         url('../fonts/franchise-bold-hinted.svg#franchiseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'code_boldregular';
+    src: url('../fonts/code_bold-webfont.eot');
+    src: url('../fonts/code_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/code_bold-webfont.woff') format('woff'),
+         url('../fonts/code_bold-webfont.ttf') format('truetype'),
+         url('../fonts/code_bold-webfont.svg#code_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'DejaWebBold';
+    src: url('fonts/dejaweb-bold.eot');
+    src: url('fonts/dejaweb-bold.eot') format('embedded-opentype'),
+         url('fonts/dejaweb-bold.woff') format('woff'),
+         url('fonts/dejaweb-bold.ttf') format('truetype'),
+         url('fonts/dejaweb-bold.svg#DejaWebBold') format('svg');
+}
+
+div#hwrapper {
+	width:100%;
+	position:fixed;
+	/*min-height:110px;*/
+	border-bottom:10px solid #fdcc28;
+	text-align:center;
+	margin-top:0px;
+	background:#a61b04;
+	top:0;
+	
+}
+div#header {
+	
+	/*font-family: Calibri, Arial, Helvetica, sans-serif;*/
+	/*font-family: 'Merriweather Sans', sans-serif;*/
+	font-family:"code_boldregular",Arial;
+	
+	
+	/*font-variant:small-caps;*/
+	font-size:24px;
+	color: #fbfbf9;
+	text-align:center;
+	width:960px;
+	min-width:960px;
+	height:110px;
+	min-height:110px;
+	margin-left:auto;
+	margin-right:auto;
+	/*margin-top:-24px;*/
+	background: url(../img/logomini.png) right no-repeat; 
+	
+	 
+
+}
+div#header a {
+	color:#fbfbf9;	
+	text-decoration:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#headertext {
+	font-size:24px;
+	color: #fbfbf9;
+	text-align:center;
+	padding-top:60px;
+	letter-spacing:2px;
+	
+	
+}
+div#header li {
+	list-style:none;
+	/*display:inline;*/
+	display:inline-block;
+	padding-left:10px;
+	/*text-transform:capitalize;*/
+	
+
+}
+div#contentwrapper {
+	
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size:16px;
+	text-align:center;
+	color: #FFF;
+	margin-top:100px;
+	width:960px;
+	height:auto;
+	/*height:auto;*/
+	/*overflow:scroll;*/
+	padding-top:0px;
+	/*margin-top:0px;*/
+	overflow:auto;
+	margin-left:auto;
+	margin-right:auto;
+	/*border-left: #FF0 10px solid;
+	border-right: #FF0 10px solid;*/
+}
+div#contentwrapper a {
+	color:#fdcc28;
+	text-decoration:none;
+}
+div#contentwrapper a:hover {
+	text-decoration:underline;
+	
+}
+div#contentwrapper ul li {
+display: inline;
+list-style-type:circle;
+margin: 0;
+padding: 0;
+}
+div#contentwrapper ul {
+	margin: 0;
+	padding: 0;
+}
+div#contentwrapper table {
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+div#contentwrapper table th{
+color:#fecb00;
+font-size:18px !important;
+}
+div#mediafooter {
+	width:102px;
+	height:48px;
+	position:fixed;
+	bottom:0;
+	margin-bottom:0;
+	right:0;
+	margin-right:0;
+	
+	
+}
+.itemheader{
+	font-size:20px !important;
+	color:#fdcc28;
+}
+.menu_ul {
+	display:inline;
+	color:black;
+	background-color:#fdcc28;
+	border:1px solid #000;
+	
+}
+.listulheader {
+	color:#fdcc28;
+}
+.itemsubheader {
+	font-size:14px;
+	#fdcc28;
+}
+.zmenufooter {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	background-color:#fdcc28;
+	width:500px;
+	color:#b52c02;
+	font-weight:bold;
+	font-size:14px !important;
+}
+
+.healthnotice {
+	font-family:Arial,Helvetica,Sans-Serif;
+	font-size:9px;
+	text-align:center;
+}
+
+
+
+::-webkit-scrollbar {
+	z-index:10;
+  width: 8px; /* 1px wider than Lion. */
+  /* This is more usable for users trying to click it. */
+  /*background-color: rgba(0,0,0,0);*/
+background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1MmMwMiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2EzMTcwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+background-image: -moz-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */	
+background-size: 150% auto;
+  /*-webkit-border-radius: 100px;*/
+}
+/* hover effect for both scrollbar area, and scrollbar 'thumb' */
+::-webkit-scrollbar:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+ 
+/* The scrollbar 'thumb' ...that marque oval shape in a scrollbar */
+::-webkit-scrollbar-thumb:vertical {
+  /* This is the EXACT color of Mac OS scrollbars. 
+     Yes, I pulled out digital color meter */
+  background: rgba(0,0,0,0.5);
+  -webkit-border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:vertical:active {
+  background: rgba(0,0,0,0.61); /* Some darker color when you click it */
+  -webkit-border-radius: 100px;
+}
+
+	

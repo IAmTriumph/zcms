@@ -1,0 +1,97 @@
+/* BACKEND CSS */
+
+html,body {
+	padding-top:0;
+	padding-left:0;
+	margin-top:0;
+	margin-left:0;
+	width:100%;
+	height:100%;
+}
+body {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1MmMwMiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2EzMTcwNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+	background-image: -moz-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+	background-image: -o-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+	background-image: -webkit-linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */
+	background-image: linear-gradient(bottom, #b52c02 0%, #a31705 100%); /* gradient overlay */	
+	background-size: 200%;
+}
+div#backend {
+
+	margin-left:auto;
+	margin-right:auto;
+	border: 10px solid #fdcc28;
+	width: 960px;
+	height: auto;
+	background-color:#a61b04;
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size:16px;
+	color: #FFF;
+	font-weight:bold;
+}
+div#hidden {
+	min-height:100px;
+	width:auto;
+}
+div#backendlogin {
+	
+	margin-left:auto;
+	margin-right:auto;
+	border: 10px solid #fdcc28;
+	width: 400px;
+	height: auto;
+	background-color:#a61b04;
+	font-family: "Trebuchet MS", Arial, Helvetica;
+	font-size:16px;
+	color: #FFF;
+	font-weight:bold;
+}
+div#backendlogin a {
+	color:#fdcc28;
+	text-decoration:none;
+}
+div#backendlogin a:hover {
+	text-decoration:underline;
+}
+div#backend a {
+	color:#fdcc28;
+	text-decoration:none;
+}
+div#backend a:hover {
+	text-decoration:underline;
+}
+.l1 {
+margin-left:auto;
+margin-right:auto;
+
+}
+.l2 {
+color:#FFF;
+}
+div#ft {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.nu {
+margin-left:auto;
+margin-right:auto;
+}
+.nu h2 {
+	text-align:center;
+}
+.l1 h2 {
+	text-align:center;
+}
+.l1 td {
+	text-align:right;
+}
+.r1 {
+	background-color:#bb171c;	
+}
+.r2 {
+	background-color:#9e0b0f;
+}
+.r3 {
+	background-color:#810a0d;
+}
